@@ -14,7 +14,7 @@ class App extends React.Component {
     }
 
     loadData() {
-        let url = "http://jsonplaceholder.typicode.com/users";
+        let url = "https://jsonplaceholder.typicode.com/users";
         fetch(url, {
             crossDomain: true,
             method: 'GET',
